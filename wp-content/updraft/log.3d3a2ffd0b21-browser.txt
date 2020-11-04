@@ -1,0 +1,59 @@
+0000.059 (R) [notice] Looking for db archive: file name: backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-db.gz
+0000.059 (R) [notice] Archive is expected to be size: 852.7 KB: OK
+0000.059 (R) [notice] Looking for plugins archive: file name: backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-plugins.zip
+0000.059 (R) [notice] Archive is expected to be size: 47373 KB: OK
+0000.060 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.061 (R) [notice] Unpacking backup... (backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-db.gz, 0.8 Mb)
+0000.062 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.069 (R) [notice] Enabling Maintenance mode&#8230;
+0000.073 (R) [notice] Backup of: https://spa0001.alanvo.com
+0000.073 (R) [notice] Content URL: https://spa0001.alanvo.com/wp-content
+0000.073 (R) [notice] Uploads URL: https://spa0001.alanvo.com/wp-content/uploads
+0000.074 (R) [notice] Old table prefix: sp_
+0000.074 (R) [notice] Site information: multisite = 0
+0000.074 (R) [notice] Site information: sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.074 (R) [notice] Skipped tables: store_locator_country, store_locator_state, store_locator_transactions
+0000.074 (R) [notice] New table prefix: sp_
+0000.076 (R) [notice] Processing table (MyISAM):  sp_options
+0000.147 (R) [notice] Processing table (MyISAM):  sp_users
+0000.151 (R) [notice] Processing table (MyISAM):  sp_usermeta
+0000.156 (R) [notice] Processing table (MyISAM):  sp_actionscheduler_actions
+0000.166 (R) [notice] Processing table (MyISAM):  sp_actionscheduler_claims
+0000.171 (R) [notice] Processing table (MyISAM):  sp_actionscheduler_groups
+0000.178 (R) [notice] Processing table (MyISAM):  sp_actionscheduler_logs
+0000.184 (R) [notice] Processing table (MyISAM):  sp_commentmeta
+0000.189 (R) [notice] Processing table (MyISAM):  sp_comments
+0000.193 (R) [notice] Processing table (MyISAM):  sp_links
+0000.204 (R) [notice] Processing table (MyISAM):  sp_postmeta
+0000.910 (R) [notice] Database queries processed: 50 in 0.85 seconds
+0001.594 (R) [notice] Processing table (MyISAM):  sp_posts
+0001.740 (R) [notice] Processing table (MyISAM):  sp_term_relationships
+0001.748 (R) [notice] Processing table (MyISAM):  sp_term_taxonomy
+0001.754 (R) [notice] Processing table (MyISAM):  sp_termmeta
+0001.759 (R) [notice] Processing table (MyISAM):  sp_terms
+0001.764 (R) [notice] Processing table (MyISAM):  sp_alm
+0001.769 (R) [notice] Processing table (MyISAM):  sp_mapsvg_database_1273
+0001.775 (R) [notice] Processing table (MyISAM):  sp_mapsvg_r2d
+0001.781 (R) [notice] Processing table (MyISAM):  sp_mapsvg_regions_1273
+0001.786 (R) [notice] Processing table (MyISAM):  sp_mapsvg_schema
+0001.791 (R) [notice] Processing table (MyISAM):  sp_wpmailsmtp_tasks_meta
+0001.796 (R) [notice] Processing table (MyISAM):  sp_wppusher_packages
+0001.800 (R) [notice] Database queries processed: 100 in 1.74 seconds
+0001.852 (R) [notice] Disabling Maintenance mode&#8230;
+0001.852 (R) [notice] Finished: lines processed: 101 in 1.79 seconds
+0001.852 (R) [notice] Cleaning up rubbish...
+0001.856 (R) [notice] Unpacking backup... (backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-plugins.zip, 46.3 MB)
+0001.950 (R) [notice] Unzip progress: 1526 out of 9977 files (917 B, plugins/bdthemes-element-pack/modules/user-login/vendor/phpseclib/phpseclib/phpseclib/File/ASN1/Element.php)
+0002.068 (R) [notice] Unzip progress: 2527 out of 9977 files (8.4 MB, plugins/bdthemes-element-pack/modules/user-login/vendor/phpseclib/phpseclib/phpseclib/File/X509.php)
+0002.198 (R) [notice] Unzip progress: 3528 out of 9977 files (22.6 MB, plugins/bdthemes-element-pack/assets/css/ep-countdown.rtl.css)
+0002.289 (R) [notice] Unzip progress: 4529 out of 9977 files (36.2 MB, plugins/elementor/templates/9836.json)
+0002.480 (R) [notice] Unzip progress: 5530 out of 9977 files (61.5 MB, plugins/essential-addons-elementor/vendor/google/apiclient/src/Google/Service/Exception.php)
+0002.818 (R) [notice] Unzip progress: 6531 out of 9977 files (106.1 MB, plugins/wp-mail-smtp/vendor_prefixed/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php)
+0002.989 (R) [notice] Unzip progress: 7532 out of 9977 files (130.9 MB, plugins/updraftplus/central/bootstrap.php)
+0003.082 (R) [notice] Unzip progress: 8533 out of 9977 files (140.9 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Exception/TransferException.php)
+0003.220 (R) [notice] Unzip progress: 9534 out of 9977 files (157.5 MB, plugins/wp-multi-store-locator-pro/assets/js/map_cluster.js)
+0003.323 (R) [notice] Unzip progress: 9977 out of 9977 files (164.1 MB, plugins/wp-multi-store-locator-pro/assets/js/amcharts/plugins/dataloader/examples/data/TXN.csv)
+0003.328 (R) [notice] Moving old data out of the way...
+0003.466 (R) [notice] Moving unpacked backup into place...
+0003.590 (R) [notice] Cleaning up rubbish...
+0003.603 (R) [notice] Restore successful!

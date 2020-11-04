@@ -1,0 +1,81 @@
+0000.001 () Opened log file at time: Fri, 30 Oct 2020 07:39:25 +0000 on https://spa0001.alanvo.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.5M | 58.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.047 () Free space on disk containing Updraft's temporary directory: 2425.4 MB
+0000.001 () Opened log file at time: Fri, 30 Oct 2020 07:39:26 +0000 on https://spa0001.alanvo.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 56.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.036 () Free space on disk containing Updraft's temporary directory: 2425.4 MB
+0000.055 () Ensuring WP_Filesystem is setup for a restore
+0000.056 () WP_Filesystem is setup and ready for a restore
+0000.059 () Restore job started. Entities to restore: plugins, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["sp_options","sp_users","sp_usermeta","sp_actionscheduler_actions","sp_actionscheduler_claims","sp_actionscheduler_groups","sp_actionscheduler_logs","sp_commentmeta","sp_comments","sp_links","sp_postmeta","sp_posts","sp_term_relationships","sp_term_taxonomy","sp_termmeta","sp_terms","sp_alm","sp_mapsvg_database_1273","sp_mapsvg_r2d","sp_mapsvg_regions_1273","sp_mapsvg_schema","sp_wpmailsmtp_tasks_meta","sp_wppusher_packages"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.060 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.060 () Entity: db
+0000.061 () restore_backup(backup_file=backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-db.gz, type=db, info=a:0:{}, last_one=)
+0000.061 () Unpacking backup... (backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-db.gz, 0.8 Mb)
+0000.062 () Database successfully unpacked
+0000.062 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.062 () Using direct MySQL access; value of use_mysqli is: 1
+0000.062 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.069 () Max packet size: 256 MB
+0000.069 () Entering maintenance mode
+0000.069 () Enabling Maintenance mode&#8230;
+0000.073 () Backup of: https://spa0001.alanvo.com
+0000.073 () Content URL: https://spa0001.alanvo.com/wp-content
+0000.073 () Uploads URL: https://spa0001.alanvo.com/wp-content/uploads
+0000.074 () Old table prefix: sp_
+0000.074 () Site information: multisite=0
+0000.074 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.074 () Skipped tables: store_locator_country, store_locator_state, store_locator_transactions
+0000.074 () New table prefix: sp_
+0000.076 () Processing table (MyISAM): sp_options
+0000.131 () Restoring prior UD configuration (table: sp_options; keys: 4)
+0000.147 () Processing table (MyISAM): sp_users
+0000.151 () Processing table (MyISAM): sp_usermeta
+0000.156 () Processing table (MyISAM): sp_actionscheduler_actions
+0000.166 () Processing table (MyISAM): sp_actionscheduler_claims
+0000.171 () Processing table (MyISAM): sp_actionscheduler_groups
+0000.178 () Processing table (MyISAM): sp_actionscheduler_logs
+0000.184 () Processing table (MyISAM): sp_commentmeta
+0000.189 () Processing table (MyISAM): sp_comments
+0000.193 () Processing table (MyISAM): sp_links
+0000.203 () Processing table (MyISAM): sp_postmeta
+0000.910 () Database queries processed: 50 in 0.85 seconds
+0001.594 () Processing table (MyISAM): sp_posts
+0001.740 () Processing table (MyISAM): sp_term_relationships
+0001.748 () Processing table (MyISAM): sp_term_taxonomy
+0001.754 () Processing table (MyISAM): sp_termmeta
+0001.759 () Processing table (MyISAM): sp_terms
+0001.764 () Processing table (MyISAM): sp_alm
+0001.769 () Processing table (MyISAM): sp_mapsvg_database_1273
+0001.775 () Processing table (MyISAM): sp_mapsvg_r2d
+0001.781 () Processing table (MyISAM): sp_mapsvg_regions_1273
+0001.786 () Processing table (MyISAM): sp_mapsvg_schema
+0001.791 () Processing table (MyISAM): sp_wpmailsmtp_tasks_meta
+0001.796 () Processing table (MyISAM): sp_wppusher_packages
+0001.800 () Database queries processed: 100 in 1.74 seconds
+0001.852 () Unlocking database and leaving maintenance mode
+0001.852 () Disabling Maintenance mode&#8230;
+0001.852 () Finished: lines processed: 101 in 1.79 seconds
+0001.852 () Cleaning up rubbish...
+0001.856 () Entity: plugins
+0001.856 () restore_backup(backup_file=backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:52:"/home/alanvo/public_html/_spa0001/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=1)
+0001.856 () Unpacking backup... (backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-plugins.zip, 46.3 MB)
+0001.857 () Unzipping backup_2020-10-30-0229_spa0001alanvocom_265d020a4edc-plugins.zip to /home/alanvo/public_html/_spa0001/wp-content/upgrade/73abbff7/ using UpdraftPlus_ZipArchive, starting index 0
+0001.950 () Unzip progress: 1526 out of 9977 files (917 B, plugins/bdthemes-element-pack/modules/user-login/vendor/phpseclib/phpseclib/phpseclib/File/ASN1/Element.php)
+0002.068 () Unzip progress: 2527 out of 9977 files (8.4 MB, plugins/bdthemes-element-pack/modules/user-login/vendor/phpseclib/phpseclib/phpseclib/File/X509.php)
+0002.198 () Unzip progress: 3528 out of 9977 files (22.6 MB, plugins/bdthemes-element-pack/assets/css/ep-countdown.rtl.css)
+0002.289 () Unzip progress: 4529 out of 9977 files (36.2 MB, plugins/elementor/templates/9836.json)
+0002.480 () Unzip progress: 5530 out of 9977 files (61.5 MB, plugins/essential-addons-elementor/vendor/google/apiclient/src/Google/Service/Exception.php)
+0002.818 () Unzip progress: 6531 out of 9977 files (106.1 MB, plugins/wp-mail-smtp/vendor_prefixed/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php)
+0002.990 () Unzip progress: 7532 out of 9977 files (130.9 MB, plugins/updraftplus/central/bootstrap.php)
+0003.082 () Unzip progress: 8533 out of 9977 files (140.9 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Exception/TransferException.php)
+0003.220 () Unzip progress: 9534 out of 9977 files (157.5 MB, plugins/wp-multi-store-locator-pro/assets/js/map_cluster.js)
+0003.323 () Unzip progress: 9977 out of 9977 files (164.1 MB, plugins/wp-multi-store-locator-pro/assets/js/amcharts/plugins/dataloader/examples/data/TXN.csv)
+0003.328 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.328 () Moving old data: can potentially use wp_filesystem method / -old
+0003.328 () Moving old data out of the way...
+0003.463 () Top-level entities being moved: wppusher, bdthemes-element-pack, akismet, ele-custom-skin, elementor, essential-addons-elementor, hello.php, essential-addons-for-elementor-lite, documentation, mapsvg, download-plugins-dashboard, wp-mail-smtp, updraftplus, classic-editor, elementor-pro, index.php, contact-form-7, wp-multi-store-locator-pro
+0003.466 () Moving unpacked backup into place...
+0003.584 () Top-level entities being moved: wppusher, bdthemes-element-pack, akismet, ele-custom-skin, elementor, essential-addons-elementor, hello.php, essential-addons-for-elementor-lite, documentation, mapsvg, download-plugins-dashboard, wp-mail-smtp, updraftplus, classic-editor, elementor-pro, index.php, contact-form-7, wp-multi-store-locator-pro
+0003.590 () Cleaning up rubbish...
+0003.603 () Restore successful!
+0003.603 () Restore successful

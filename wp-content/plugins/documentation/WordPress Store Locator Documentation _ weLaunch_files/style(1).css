@@ -1,0 +1,454 @@
+/*
+Theme Name: weLaunch
+Description: This is a child theme for Flatsome Theme
+Author: weLaunch
+Template: flatsome
+Version: 3.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: bold;
+}
+
+h1, .h1 {
+	font-size: 74px;
+	line-height: 88px;
+}
+
+h1.product-title.product_title.entry-title {
+	font-size: 62px;
+	line-height: 76px;
+}
+
+h2, .h2 {
+	font-size: 42px;
+	line-height: 52px;
+}
+
+h3, .h3 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.single-post h1, .single-faq h1, .archive h1, .single-ticket h1,
+.single-post .h1, .single-faq .h1, .archive .h1, .single-ticket .h1 {
+	font-size: 34px;
+	line-height: 42px;
+}
+
+.single-post h2, .single-faq h2, .archive h2,
+.single-post .h2, .single-faq .h2, .archive .h2 {
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.single-post h3, .single-faq h3, .archive h3,
+.single-post .h3, .single-faq .h3, .archive .h3 {
+	font-size: 26px;
+	line-height: 34px;
+}
+
+.related-products-wrapper h3, .upsells-wrapper h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.product .woocommerce-Tabs-panel {
+	max-width: 1560px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.related-products-wrapper, .upsells-wrapper {
+	padding: 30px 15px 10px;
+}
+
+h3.wordpress-helpdesk-faq-title {
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.ticket {
+	padding-top: 40px;
+}
+
+.wordpress-helpdesk-single-title {
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+	h1, h1.product-title.product_title.entry-title, .h1 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	h2, .h2 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	h3, .h2 {
+			font-size: 22px;
+			line-height: 30px;
+	}
+	
+	.single-post h1, .single-faq h1, .archive h1, .single-ticket h1,
+	.single-post .h1, .single-faq .h1, .archive .h1, .single-ticket .h1 
+	{
+		font-size: 28px;
+		line-height: 36px;
+	}
+	
+	.single-post h2, .single-faq h2, .archive h2,
+	.single-post .h2, .single-faq .h2, .archive .h2 
+	{
+		font-size: 22px;
+		line-height: 30px;
+	}
+	
+	.single-post h3, .single-faq h3, .archive h3,
+	.single-post .h3, .single-faq .h3, .archive .h3 
+	{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.product .wordpress-helpdesk-faq-title {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	
+	a.button.is-link {
+			font-size: 14px;
+	}
+
+	#tab-description .section {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+}
+
+.single-product .quantity {
+	display: none;
+}
+
+.single-product .add-to-cart-container,
+.single-product .cart {
+	display: inline;
+}
+	
+.product .large-9 .large-8 {
+		 max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+} 
+
+.nav-dark .is-outline, .dark .nav>li>a, .dark .nav>li.html, .dark .nav-vertical li li.menu-item-has-children>a, .dark .nav-vertical>li>ul li a, .nav-dropdown.dark>li>a, .nav-dropdown.dark .nav-column>li>a, .nav-dark .nav>li>a, .nav-dark .nav>li>button {
+	color: #fff;
+}
+
+.featured-title {
+    background-color: #446084;
+    text-shadow: none;
+}
+
+.product-section .large-2 {
+	display: none;
+}
+
+.product-section .large-10 {
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+.page-id-13 .wordpress-helpdesk-sidebar {
+	display: none;
+}
+
+.page-id-13 .wordpress-helpdesk-col-sm-8 {
+	width: 100%;
+}
+
+.woocommerce-ordering,
+.portfolio-summary {
+	display: none;
+}
+
+.page-id-1174 .wordpress-helpdesk-row {
+	max-width: 1530px;
+	margin: 0 auto;
+}
+
+.wordpress-helpdesk-faq-content-after {
+	margin-top: 50px;
+}
+
+.wordpress-helpdesk-faq-content-before {
+	margin-bottom: 30px;
+}
+
+.wordpress-helpdesk-faq-topic-title {
+	margin-bottom: 5px;
+}
+
+h3.wordpress-helpdesk-faq-boxed-title {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: normal;
+}
+
+h2.widgettitle {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+ul.menu>li ul li, .widget>ul>li ul li {
+	padding: 4px 0;
+}
+
+@media (min-width: 768px) {
+	.wordpress-helpdesk-sidebar {
+		width: 25%;
+	}
+
+	.wordpress-helpdesk-col-sm-8 {
+		width: 75%;
+	}
+	}
+
+.wordpress-helpdesk-sidebar li a {
+	font-size: 16px !important; 
+	line-height: 22px !important;;
+}
+
+.wordpress-helpdesk-faq-back-to-parent-topic-container {
+	margin-bottom: 20px;
+}
+
+.widget>ul>li ul {
+	display: block;
+	border-left: none;
+	margin-top: 0 !important;
+}
+
+#portfolio-content {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.review-item .avatar {
+	display: none;
+}
+
+.review-item .comment-text {
+	padding: 0 !important;
+	margin-left: -20px;
+}
+
+#wp-helpdesk_message-editor-tools .wp-editor-tabs {
+display: none;
+}
+
+.wpcf7-form .col {
+	padding-bottom: 0;
+}
+
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea, .wordpress-helpdesk .form-control {
+
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #f9f9f9;
+    background-image: none;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: none;
+	}
+
+.button.is-link span:before {
+	content: "> "
+}
+
+.footer-1, .footer-2 {
+    border-top: none;
+}
+
+#top-bar a {
+	color: #fff;
+	font-weight: 500;
+}
+
+.wordpress-helpdesk-faq-boxed h3 {
+	margin-top: 20px;
+}
+
+.wordpress-helpdesk-meta-information > a {
+	display: none;
+}
+
+.wordpress-helpdesk-single-title {
+	margin-bottom: 5px;
+}
+
+.wordpress-helpdesk-faq-back-to-parent-topic-container {
+	font-size: 13px;
+}
+
+.text-center>div {
+text-align: center;
+}
+
+.icon-box-center .icon-box-img {
+	height: 70px;
+}
+
+.container-width, .full-width .ubermenu-nav, .container, .row, .product-section-title-upsell {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.icon-box-text h6 {
+	font-weight: normal;
+}
+
+.product .container {
+	max-width: 100% !important;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.product .woocommerce-Tabs-panel--description {
+	max-width: 100%;
+	padding: 0;
+}
+
+.product .container .woocommerce-Tabs-panel--description .row:not(.row-collapse) {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wc-tabs {
+	   background: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.off-canvas-center.mfp-bg.mfp-ready {
+	opacity: 0.95;
+}
+
+.custom-product-page .col-inner.text-left.box-shadow-2.box-shadow-5-hover p {
+	margin-bottom: 0;
+	line-height: 0;
+}
+
+.wc-tabs .cart {
+	margin-bottom: 5px;
+}
+
+.wc-tabs .single_add_to_cart_button {
+	font-size: .8em;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.video .rll-youtube-player {
+	margin-top: -56.5%;
+}
+
+.woocommerce-Tabs-panel--custom-tab-1 h2,
+.woocommerce-Tabs-panel--custom-tab-2 h2,
+.woocommerce-Tabs-panel--custom-tab-3 h2 {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+.wc-fixed-tabs {
+    position: fixed;
+    top: 0;
+		z-index: 9999;
+	padding: 10px;
+	font-size: 16px;
+	webkit-box-shadow: 0px 19px 40px -15px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 19px 40px -15px rgba(0,0,0,0.3);
+box-shadow: 0px 19px 40px -15px rgba(0,0,0,0.3);
+	
+}
+
+.admin-bar .wc-fixed-tabs {
+	top: 32px;
+}
+}
+
+
+.home  .box-excerpt {
+		display: none;
+}
+
+.autocomplete-suggestion img,
+.autocomplete-suggestions .search-price {
+	display: none;
+}
+
+.header .search-form .live-search-results {
+	background-color: #fff;
+	width: 270px;
+}
+
+.faq ul, .faq ol {
+	margin-left: 20px;
+}
+
+.faq li {
+	margin-bottom: 0.2em;
+}
+
+.filter-nav {
+	margin-bottom: 40px;
+}
+
+.prdctfltr_buttons {
+	display: none;
+}
+
+.widget_product_categories>ul>li ul span.count {
+	display: inline;
+}
+
+.prdctfltr_filter label {
+	font-size: 17px;
+	line-height: 27px;
+	font-weight: normal;
+}
+
+.prdctfltr_checkboxes .prdctfltr_sub {
+	margin-left: 25px;
+}
+
+.lwptoc_items br,
+.type-faq .lwptoc {
+	display: none;
+}
+
+.woocommerce-cart .wordpress-helpdesk-col-sm-6 {
+	width: 100%;
+}
+
+.woocommerce-cart .wordpress-helpdesk-faq-searchterm, .woocommerce-cart  .searchform-submit,
+#cart-popup .wordpress-helpdesk-faq{
+	display: none;
+}
+
+.mfp-container {
+	background: rgba(49, 113, 238, 0.8);
+}
+
+.mfp-ready .mfp-close {
+	opacity: 0.9 !important;
+	mix-blend-mode: inherit;
+}

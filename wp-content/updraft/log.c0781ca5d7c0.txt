@@ -1,0 +1,55 @@
+0000.001 () Opened log file at time: Fri, 30 Oct 2020 02:05:07 +0000 on https://spa0001.alanvo.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.5M | 58.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.047 () Free space on disk containing Updraft's temporary directory: 2728.8 MB
+0000.001 () Opened log file at time: Fri, 30 Oct 2020 02:05:08 +0000 on https://spa0001.alanvo.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 56.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.046 () Free space on disk containing Updraft's temporary directory: 2728.7 MB
+0000.072 () Ensuring WP_Filesystem is setup for a restore
+0000.072 () WP_Filesystem is setup and ready for a restore
+0000.076 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["sp_options","sp_users","sp_usermeta","sp_actionscheduler_actions","sp_actionscheduler_claims","sp_actionscheduler_groups","sp_actionscheduler_logs","sp_commentmeta","sp_comments","sp_links","sp_postmeta","sp_posts","sp_term_relationships","sp_term_taxonomy","sp_termmeta","sp_terms","sp_alm","sp_wpmailsmtp_tasks_meta","sp_wppusher_packages"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.077 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.078 () Entity: db
+0000.078 () restore_backup(backup_file=backup_2020-10-28-1348_spa0001alanvocom_ad9876593d14-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.078 () Unpacking backup... (backup_2020-10-28-1348_spa0001alanvocom_ad9876593d14-db.gz, 0.7 Mb)
+0000.079 () Database successfully unpacked
+0000.079 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.079 () Using direct MySQL access; value of use_mysqli is: 1
+0000.079 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.101 () Max packet size: 256 MB
+0000.101 () Entering maintenance mode
+0000.101 () Enabling Maintenance mode&#8230;
+0000.108 () Backup of: https://spa0001.alanvo.com
+0000.110 () Content URL: https://spa0001.alanvo.com/wp-content
+0000.110 () Uploads URL: https://spa0001.alanvo.com/wp-content/uploads
+0000.110 () Old table prefix: sp_
+0000.111 () Site information: multisite=0
+0000.111 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.111 () Skipped tables: store_locator_country, store_locator_state, store_locator_transactions
+0000.113 () New table prefix: sp_
+0000.117 () Processing table (MyISAM): sp_options
+0000.164 () Restoring prior UD configuration (table: sp_options; keys: 4)
+0000.170 () Processing table (MyISAM): sp_users
+0000.174 () Processing table (MyISAM): sp_usermeta
+0000.179 () Processing table (MyISAM): sp_actionscheduler_actions
+0000.187 () Processing table (MyISAM): sp_actionscheduler_claims
+0000.191 () Processing table (MyISAM): sp_actionscheduler_groups
+0000.197 () Processing table (MyISAM): sp_actionscheduler_logs
+0000.203 () Processing table (MyISAM): sp_commentmeta
+0000.208 () Processing table (MyISAM): sp_comments
+0000.214 () Processing table (MyISAM): sp_links
+0000.221 () Processing table (MyISAM): sp_postmeta
+0000.950 () Database queries processed: 50 in 0.86 seconds
+0001.551 () Processing table (MyISAM): sp_posts
+0001.662 () Processing table (MyISAM): sp_term_relationships
+0001.666 () Processing table (MyISAM): sp_term_taxonomy
+0001.669 () Processing table (MyISAM): sp_termmeta
+0001.672 () Processing table (MyISAM): sp_terms
+0001.677 () Processing table (MyISAM): sp_alm
+0001.682 () Processing table (MyISAM): sp_wpmailsmtp_tasks_meta
+0001.689 () Processing table (MyISAM): sp_wppusher_packages
+0001.791 () Unlocking database and leaving maintenance mode
+0001.791 () Disabling Maintenance mode&#8230;
+0001.791 () Finished: lines processed: 90 in 1.70 seconds
+0001.792 () Cleaning up rubbish...
+0001.801 () Restore successful!
+0001.801 () Restore successful

@@ -1,0 +1,6 @@
+[04-Nov-2020 03:45:41 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/alanvo/public_html/_spa0001/wp-includes/PHPMailer/PHPMailer.php on line 3329
+[04-Nov-2020 03:45:41 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/alanvo/public_html/_spa0001/wp-includes/PHPMailer/PHPMailer.php on line 4721
+[04-Nov-2020 03:45:41 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/alanvo/public_html/_spa0001/wp-includes/PHPMailer/PHPMailer.php on line 3190
+[04-Nov-2020 03:47:41 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/alanvo/public_html/_spa0001/wp-includes/PHPMailer/PHPMailer.php on line 3329
+[04-Nov-2020 03:47:41 UTC] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/alanvo/public_html/_spa0001/wp-includes/PHPMailer/PHPMailer.php on line 4721
+[04-Nov-2020 03:47:41 UTC] PHP Warning:  substr() expects parameter 1 to be string, array given in /home/alanvo/public_html/_spa0001/wp-includes/PHPMailer/PHPMailer.php on line 3190

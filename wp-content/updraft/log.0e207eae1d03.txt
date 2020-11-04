@@ -1,0 +1,13 @@
+0000.001 () Opened log file at time: Fri, 30 Oct 2020 07:38:53 +0000 on https://spa0001.alanvo.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.5M | 58.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.045 () Free space on disk containing Updraft's temporary directory: 2236.1 MB
+0000.001 () Opened log file at time: Fri, 30 Oct 2020 07:38:53 +0000 on https://spa0001.alanvo.com
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 56.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.031 () Free space on disk containing Updraft's temporary directory: 2236.1 MB
+0000.043 () Ensuring WP_Filesystem is setup for a restore
+0000.043 () WP_Filesystem is setup and ready for a restore
+0000.046 () Restore job started. Entities to restore: plugins, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["sp_options","sp_users","sp_usermeta","sp_actionscheduler_actions","sp_actionscheduler_claims","sp_actionscheduler_groups","sp_actionscheduler_logs","sp_commentmeta","sp_comments","sp_links","sp_postmeta","sp_posts","sp_term_relationships","sp_term_taxonomy","sp_termmeta","sp_terms","sp_alm","sp_mapsvg_database_1273","sp_mapsvg_r2d","sp_mapsvg_regions_1273","sp_mapsvg_schema","sp_wpmailsmtp_tasks_meta","sp_wppusher_packages"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.046 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /home/alanvo/public_html/_spa0001/wp-content/updraft/plugins-old
+0000.049 () Restore failed...
+0000.050 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /home/alanvo/public_html/_spa0001/wp-content/updraft/plugins-old
+0000.050 () Restore failed

@@ -1,0 +1,340 @@
+0000.000 (0) Opened log file at time: Fri, 30 Oct 2020 02:01:38 +0000 on https://spa0001.alanvo.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55.2M | 56.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.046 (0) Free space on disk containing Updraft's temporary directory: 2819.9 MB
+0000.051 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.055 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.056 (0) Set semaphore last lock (fd) time to 2020-10-30 02:01:38
+0000.057 (0) Semaphore lock (fd) complete
+0000.060 (0) Backup run: resumption=0, nonce=8f8984970ad3, file_nonce=8f8984970ad3 begun at=1604023298 (0s ago), job type=backup
+0000.061 (0) Scheduling a resumption (1) after 300 seconds (1604023598) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.075 (0) Testing: /usr/bin/zip
+0000.082 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.083 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.083 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.083 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.084 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.090 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.095 (0) Working binary zip found: /usr/bin/zip
+0000.095 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.096 (0) Creation of backups of directories: beginning
+0000.097 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.293 (0) Total entities for the zip file: 1525 directories, 8452 files (0 skipped as non-modified), 164.1 MB
+0000.303 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.309 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.313 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.317 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.320 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.321 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 8452 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.469 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: size is now: 1.30 MB
+0000.476 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 600 files added (on-disk size: 1296.6 KB)
+0000.481 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 700 files added (on-disk size: 1296.6 KB)
+0000.485 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 800 files added (on-disk size: 1296.6 KB)
+0000.489 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 900 files added (on-disk size: 1296.6 KB)
+0000.491 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1000 files added (on-disk size: 1296.6 KB)
+0000.492 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 8452 files batched, 501 (1002) added so far); re-opening (prior size: 1296.6 KB)
+0000.626 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: size is now: 2.20 MB
+0000.630 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1100 files added (on-disk size: 2296.6 KB)
+0000.632 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1200 files added (on-disk size: 2296.6 KB)
+0000.635 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1300 files added (on-disk size: 2296.6 KB)
+0000.638 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1400 files added (on-disk size: 2296.6 KB)
+0000.640 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1500 files added (on-disk size: 2296.6 KB)
+0000.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 8452 files batched, 501 (1503) added so far); re-opening (prior size: 2296.6 KB)
+0001.013 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: size is now: 5.70 MB
+0001.017 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1600 files added (on-disk size: 5822.6 KB)
+0001.020 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1700 files added (on-disk size: 5822.6 KB)
+0001.022 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1800 files added (on-disk size: 5822.6 KB)
+0001.025 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 1900 files added (on-disk size: 5822.6 KB)
+0001.028 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2000 files added (on-disk size: 5822.6 KB)
+0001.028 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 8452 files batched, 501 (2004) added so far); re-opening (prior size: 5822.6 KB)
+0001.150 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2100 files added (on-disk size: 6958.3 KB)
+0001.153 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2200 files added (on-disk size: 6958.3 KB)
+0001.156 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2300 files added (on-disk size: 6958.3 KB)
+0001.159 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2400 files added (on-disk size: 6958.3 KB)
+0001.161 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2500 files added (on-disk size: 6958.3 KB)
+0001.162 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 8452 files batched, 501 (2505) added so far); re-opening (prior size: 6958.3 KB)
+0001.317 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2600 files added (on-disk size: 8091.9 KB)
+0001.320 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2700 files added (on-disk size: 8091.9 KB)
+0001.323 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2800 files added (on-disk size: 8091.9 KB)
+0001.325 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 2900 files added (on-disk size: 8091.9 KB)
+0001.327 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3000 files added (on-disk size: 8091.9 KB)
+0001.328 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 8452 files batched, 501 (3006) added so far); re-opening (prior size: 8091.9 KB)
+0001.480 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3100 files added (on-disk size: 9442.1 KB)
+0001.483 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3200 files added (on-disk size: 9442.1 KB)
+0001.485 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3300 files added (on-disk size: 9442.1 KB)
+0001.488 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3400 files added (on-disk size: 9442.1 KB)
+0001.490 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3500 files added (on-disk size: 9442.1 KB)
+0001.491 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.6 MB, 8452 files batched, 501 (3507) added so far); re-opening (prior size: 9442.1 KB)
+0002.146 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: size is now: 14.40 MB
+0002.156 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3600 files added (on-disk size: 14757.2 KB)
+0002.163 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3700 files added (on-disk size: 14757.2 KB)
+0002.168 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3800 files added (on-disk size: 14757.2 KB)
+0002.172 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 3900 files added (on-disk size: 14757.2 KB)
+0002.176 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4000 files added (on-disk size: 14757.2 KB)
+0002.176 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 8452 files batched, 501 (4008) added so far); re-opening (prior size: 14757.2 KB)
+0002.387 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4100 files added (on-disk size: 16726.3 KB)
+0002.395 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4200 files added (on-disk size: 16726.3 KB)
+0002.400 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4300 files added (on-disk size: 16726.3 KB)
+0002.404 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4400 files added (on-disk size: 16726.3 KB)
+0002.408 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4500 files added (on-disk size: 16726.3 KB)
+0002.409 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.3 MB, 8452 files batched, 501 (4509) added so far); re-opening (prior size: 16726.3 KB)
+0003.071 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: size is now: 20.90 MB
+0003.084 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4600 files added (on-disk size: 21444.2 KB)
+0003.092 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4700 files added (on-disk size: 21444.2 KB)
+0003.097 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4800 files added (on-disk size: 21444.2 KB)
+0003.099 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 8452 files batched, 326 (4835) added so far); re-opening (prior size: 21444.2 KB)
+0005.296 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: size is now: 29.10 MB
+0005.297 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 8104.8 KB/s)
+0005.298 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.158714056015, normalised_time=3.1586398326059, max_time=5.2973411083221, data points known=1, old_max_bytes=26214400, new_max_bytes=49795610)
+0005.300 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 4900 files added (on-disk size: 29837.8 KB)
+0005.302 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5000 files added (on-disk size: 29837.8 KB)
+0005.305 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5100 files added (on-disk size: 29837.8 KB)
+0005.307 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5200 files added (on-disk size: 29837.8 KB)
+0005.310 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5300 files added (on-disk size: 29837.8 KB)
+0005.311 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 8452 files batched, 501 (5336) added so far); re-opening (prior size: 29837.8 KB)
+0005.659 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5400 files added (on-disk size: 31890.5 KB)
+0005.667 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5500 files added (on-disk size: 31890.5 KB)
+0005.673 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5600 files added (on-disk size: 31890.5 KB)
+0005.679 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5700 files added (on-disk size: 31890.5 KB)
+0005.684 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5800 files added (on-disk size: 31890.5 KB)
+0005.685 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 8452 files batched, 501 (5837) added so far); re-opening (prior size: 31890.5 KB)
+0005.879 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 5900 files added (on-disk size: 32920.5 KB)
+0005.883 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6000 files added (on-disk size: 32920.5 KB)
+0005.887 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6100 files added (on-disk size: 32920.5 KB)
+0005.891 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6200 files added (on-disk size: 32920.5 KB)
+0005.894 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6300 files added (on-disk size: 32920.5 KB)
+0005.896 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.2 MB, 8452 files batched, 501 (6338) added so far); re-opening (prior size: 32920.5 KB)
+0006.666 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6400 files added (on-disk size: 38905.2 KB)
+0006.673 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6500 files added (on-disk size: 38905.2 KB)
+0006.678 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6600 files added (on-disk size: 38905.2 KB)
+0006.682 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6700 files added (on-disk size: 38905.2 KB)
+0006.685 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6800 files added (on-disk size: 38905.2 KB)
+0006.687 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 8452 files batched, 501 (6839) added so far); re-opening (prior size: 38905.2 KB)
+0006.885 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 6900 files added (on-disk size: 40069.2 KB)
+0006.889 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7000 files added (on-disk size: 40069.2 KB)
+0006.893 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7100 files added (on-disk size: 40069.2 KB)
+0006.896 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7200 files added (on-disk size: 40069.2 KB)
+0006.899 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7300 files added (on-disk size: 40069.2 KB)
+0006.901 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 8452 files batched, 501 (7340) added so far); re-opening (prior size: 40069.2 KB)
+0007.087 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7400 files added (on-disk size: 40891.5 KB)
+0007.096 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7500 files added (on-disk size: 40891.5 KB)
+0007.101 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7600 files added (on-disk size: 40891.5 KB)
+0007.105 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7700 files added (on-disk size: 40891.5 KB)
+0007.108 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7800 files added (on-disk size: 40891.5 KB)
+0007.110 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 8452 files batched, 501 (7841) added so far); re-opening (prior size: 40891.5 KB)
+0007.421 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 7900 files added (on-disk size: 42566.5 KB)
+0007.425 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 8000 files added (on-disk size: 42566.5 KB)
+0007.428 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 8100 files added (on-disk size: 42566.5 KB)
+0007.431 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 8200 files added (on-disk size: 42566.5 KB)
+0007.434 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 8300 files added (on-disk size: 42566.5 KB)
+0007.435 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.9 MB, 8452 files batched, 501 (8342) added so far); re-opening (prior size: 42566.5 KB)
+0007.959 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip.tmp: 8400 files added (on-disk size: 47062.4 KB)
+0008.528 (0) Created plugins zip (0) - 47373 KB in 8.4 s (5648.6 KB/s) (sha1: c194ecb2bbb8c2168b5ff47dca3833e24eac2bd2, sha256: 117ae377d358190c854033622c73427dbee8c2e42779aa744a91afb70ac58c74)
+0008.529 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.572 (0) Total entities for the zip file: 8 directories, 52 files (0 skipped as non-modified), 1.1 MB
+0008.603 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-themes.zip.tmp: size is now: 1.00 MB
+0008.630 (0) Created themes zip (0) - 1062.6 KB in 0.1 s (17771.3 KB/s) (sha1: 80a91239d8d5546a10be0fd525aeb8de603c5a83, sha256: 2ecb0d0b47fa1f240d752fdb88220bce8f42b918adb3a99d20abcbcd90626cf9)
+0008.632 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.632 (0) Looking for candidates to backup in: /home/alanvo/public_html/_spa0001/wp-content/uploads
+0008.632 (0) finding files: elementor: adding to list (1)
+0008.633 (0) finding files: essential-addons-elementor: adding to list (2)
+0008.633 (0) finding files: 2020: adding to list (3)
+0008.633 (0) finding files: alm_templates: adding to list (4)
+0008.634 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.686 (0) Total entities for the zip file: 8 directories, 652 files (0 skipped as non-modified), 54.8 MB
+0008.691 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.694 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.698 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.701 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.704 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.704 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (40.1 MB, 652 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.971 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: size is now: 38.40 MB
+0008.982 (0) Zip: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: 600 files added (on-disk size: 39310.3 KB)
+0009.131 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip.tmp: size is now: 53.10 MB
+0009.585 (0) Created uploads zip (0) - 54392.7 KB in 0.9 s (59415.9 KB/s) (sha1: f1de040d8607d6ffa8f73244bf60cd698bbeb55e, sha256: 61844699a7039c4f68486ef99f01e58b09a6c2400994457742abc3473149ca14)
+0009.586 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.587 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.587 (0) Looking for candidates to backup in: /home/alanvo/public_html/_spa0001/wp-content
+0009.587 (0) finding files: plugins: skipping: this is the plugins directory
+0009.587 (0) finding files: themes: skipping: this is the themes directory
+0009.588 (0) finding files: upgrade: skipping: excluded by options
+0009.588 (0) finding files: languages: adding to list (1)
+0009.588 (0) finding files: uploads: skipping: this is the uploads directory
+0009.588 (0) finding files: updraft: skipping: this is the updraft directory
+0009.589 (0) finding files: index.php: adding to list (2)
+0009.589 (0) finding files: debug.log: skipping: excluded by options
+0009.637 (0) Total entities for the zip file: 3 directories, 66 files (0 skipped as non-modified), 2.9 MB
+0009.762 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-others.zip.tmp: size is now: 0.70 MB
+0009.785 (0) Created others zip (0) - 712 KB in 0.2 s (4675.4 KB/s) (sha1: bdf8d35822ae1fe7b9f831b17908f86810726816, sha256: e089b133d3d9b320c661337b670e8a50f90e58e113b831fc172f448a1d7c08fb)
+0009.788 (0) Saving backup status to database (elements: 8)
+0009.790 (0) Beginning creation of database dump (WordPress DB)
+0009.791 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0009.792 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0009.819 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `sp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1226 bytes total)
+0009.824 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0009.827 (0) Table sp_options: Total expected rows (approximate): 357
+0009.868 (0) Table sp_options: Rows added in this batch (next record: 2368): 353 in 0.04 seconds
+0009.871 (0) Table sp_options: finishing file(s) (2, 218.5 KB)
+0009.872 (0) Table sp_users: Total expected rows (approximate): 2
+0009.873 (0) Table sp_users: Rows added in this batch (next record: 4): 2 in 0.00 seconds
+0009.874 (0) Table sp_users: finishing file(s) (2, 0.7 KB)
+0009.875 (0) Table sp_usermeta: Total expected rows (approximate): 47
+0009.877 (0) Table sp_usermeta: Rows added in this batch (next record: 88): 47 in 0.00 seconds
+0009.878 (0) Table sp_usermeta: finishing file(s) (2, 1.5 KB)
+0009.879 (0) Table sp_actionscheduler_actions: Total expected rows (approximate): 7
+0009.881 (0) Table sp_actionscheduler_actions: Rows added in this batch (next record: 1147): 7 in 0.00 seconds
+0009.882 (0) Table sp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0009.883 (0) Table sp_actionscheduler_claims: Total expected rows (approximate): 0
+0009.884 (0) Table sp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0009.885 (0) Table sp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0009.886 (0) Table sp_actionscheduler_groups: Total expected rows (approximate): 2
+0009.887 (0) Table sp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0009.889 (0) Table sp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0009.890 (0) Table sp_actionscheduler_logs: Total expected rows (approximate): 21
+0009.891 (0) Table sp_actionscheduler_logs: Rows added in this batch (next record: 21): 21 in 0.00 seconds
+0009.892 (0) Table sp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0009.893 (0) Table sp_commentmeta: Total expected rows (approximate): 0
+0009.894 (0) Table sp_commentmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0009.895 (0) Table sp_commentmeta: finishing file(s) (2, 0.4 KB)
+0009.896 (0) Table sp_comments: Total expected rows (approximate): 0
+0009.897 (0) Table sp_comments: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0009.899 (0) Table sp_comments: finishing file(s) (2, 0.5 KB)
+0009.900 (0) Table sp_links: Total expected rows (approximate): 0
+0009.901 (0) Table sp_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0009.902 (0) Table sp_links: finishing file(s) (2, 0.5 KB)
+0009.903 (0) Table sp_postmeta: Total expected rows (approximate): 7923
+0010.094 (0) Table sp_postmeta: Rows added in this batch (next record: 10811): 7923 in 0.19 seconds
+0010.096 (0) Table sp_postmeta: finishing file(s) (2, 482.5 KB)
+0010.097 (0) Table sp_posts: Total expected rows (approximate): 1209
+0010.143 (0) Table sp_posts: Rows added in this batch (next record: 1377): 1209 in 0.05 seconds
+0010.145 (0) Table sp_posts: finishing file(s) (2, 127.1 KB)
+0010.146 (0) Table sp_term_relationships: Total expected rows (approximate): 157
+0010.148 (0) Table sp_term_relationships: Rows added in this batch (next record: 21): 157 in 0.00 seconds
+0010.149 (0) Table sp_term_relationships: finishing file(s) (2, 0.8 KB)
+0010.150 (0) Table sp_term_taxonomy: Total expected rows (approximate): 21
+0010.152 (0) Table sp_term_taxonomy: Rows added in this batch (next record: 21): 21 in 0.00 seconds
+0010.153 (0) Table sp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0010.154 (0) Table sp_termmeta: Total expected rows (approximate): 0
+0010.155 (0) Table sp_termmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0010.156 (0) Table sp_termmeta: finishing file(s) (2, 0.4 KB)
+0010.157 (0) Table sp_terms: Total expected rows (approximate): 21
+0010.159 (0) Table sp_terms: Rows added in this batch (next record: 21): 21 in 0.00 seconds
+0010.160 (0) Table sp_terms: finishing file(s) (2, 0.7 KB)
+0010.161 (0) Table sp_alm: Total expected rows (approximate): 1
+0010.162 (0) Table sp_alm: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0010.163 (0) Table sp_alm: finishing file(s) (2, 0.5 KB)
+0010.164 (0) Table sp_mapsvg_database_1273: Total expected rows (approximate): 41
+0010.166 (0) Table sp_mapsvg_database_1273: Rows added in this batch (next record: 82): 41 in 0.00 seconds
+0010.168 (0) Table sp_mapsvg_database_1273: finishing file(s) (2, 2.8 KB)
+0010.169 (0) Table sp_mapsvg_r2d: Total expected rows (approximate): 0
+0010.170 (0) Table sp_mapsvg_r2d: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0010.171 (0) Table sp_mapsvg_r2d: finishing file(s) (2, 0.3 KB)
+0010.172 (0) Table sp_mapsvg_regions_1273: Total expected rows (approximate): 0
+0010.173 (0) Table sp_mapsvg_regions_1273: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0010.174 (0) Table sp_mapsvg_regions_1273: finishing file(s) (2, 0.3 KB)
+0010.175 (0) Table sp_mapsvg_schema: Total expected rows (approximate): 2
+0010.176 (0) Table sp_mapsvg_schema: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0010.178 (0) Table sp_mapsvg_schema: finishing file(s) (2, 0.7 KB)
+0010.179 (0) Table sp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 3
+0010.180 (0) Table sp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0010.181 (0) Table sp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0010.182 (0) Table sp_wppusher_packages: Total expected rows (approximate): 1
+0010.184 (0) Table sp_wppusher_packages: Rows added in this batch (next record: 3): 1 in 0.00 seconds
+0010.185 (0) Table sp_wppusher_packages: finishing file(s) (2, 0.5 KB)
+0010.185 (0) Skipping table (lacks our prefix (sp_)): store_locator_country
+0010.185 (0) Skipping table (lacks our prefix (sp_)): store_locator_state
+0010.186 (0) Skipping table (lacks our prefix (sp_)): store_locator_transactions
+0010.186 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_options.table.tmpr2369.gz (1/26): adding to final database dump
+0010.221 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_options.table.gz (2/26): adding to final database dump
+0010.222 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_users.table.tmpr5.gz (3/26): adding to final database dump
+0010.222 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_users.table.gz (4/26): adding to final database dump
+0010.222 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_usermeta.table.tmpr89.gz (5/26): adding to final database dump
+0010.223 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_usermeta.table.gz (6/26): adding to final database dump
+0010.223 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_actions.table.tmpr1148.gz (7/26): adding to final database dump
+0010.223 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_actions.table.gz (8/26): adding to final database dump
+0010.224 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_claims.table.tmpr0.gz (9/26): adding to final database dump
+0010.224 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_claims.table.gz (10/26): adding to final database dump
+0010.224 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_groups.table.tmpr3.gz (11/26): adding to final database dump
+0010.225 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_groups.table.gz (12/26): adding to final database dump
+0010.225 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_logs.table.tmpr22.gz (13/26): adding to final database dump
+0010.226 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_actionscheduler_logs.table.gz (14/26): adding to final database dump
+0010.226 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_commentmeta.table.tmpr0.gz (15/26): adding to final database dump
+0010.226 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_commentmeta.table.gz (16/26): adding to final database dump
+0010.227 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_comments.table.tmpr0.gz (17/26): adding to final database dump
+0010.227 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_comments.table.gz (18/26): adding to final database dump
+0010.227 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_links.table.tmpr0.gz (19/26): adding to final database dump
+0010.227 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_links.table.gz (20/26): adding to final database dump
+0010.228 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_postmeta.table.tmpr10812.gz (21/26): adding to final database dump
+0010.353 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_postmeta.table.gz (22/26): adding to final database dump
+0010.353 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_posts.table.tmpr1378.gz (23/26): adding to final database dump
+0010.381 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_posts.table.gz (24/26): adding to final database dump
+0010.381 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_term_relationships.table.tmpr22.gz (25/26): adding to final database dump
+0010.382 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_term_relationships.table.gz (26/26): adding to final database dump
+0010.382 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_term_taxonomy.table.tmpr22.gz (27/26): adding to final database dump
+0010.382 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_term_taxonomy.table.gz (28/26): adding to final database dump
+0010.383 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_termmeta.table.tmpr0.gz (29/26): adding to final database dump
+0010.383 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_termmeta.table.gz (30/26): adding to final database dump
+0010.383 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_terms.table.tmpr22.gz (31/26): adding to final database dump
+0010.384 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_terms.table.gz (32/26): adding to final database dump
+0010.384 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_alm.table.tmpr2.gz (33/26): adding to final database dump
+0010.384 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_alm.table.gz (34/26): adding to final database dump
+0010.384 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_database_1273.table.tmpr83.gz (35/26): adding to final database dump
+0010.385 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_database_1273.table.gz (36/26): adding to final database dump
+0010.385 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_r2d.table.tmpr1.gz (37/26): adding to final database dump
+0010.386 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_r2d.table.gz (38/26): adding to final database dump
+0010.386 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_regions_1273.table.tmpr1.gz (39/26): adding to final database dump
+0010.386 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_regions_1273.table.gz (40/26): adding to final database dump
+0010.387 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_schema.table.tmpr3.gz (41/26): adding to final database dump
+0010.387 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_mapsvg_schema.table.gz (42/26): adding to final database dump
+0010.387 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_wpmailsmtp_tasks_meta.table.tmpr4.gz (43/26): adding to final database dump
+0010.387 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_wpmailsmtp_tasks_meta.table.gz (44/26): adding to final database dump
+0010.388 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_wppusher_packages.table.tmpr4.gz (45/26): adding to final database dump
+0010.388 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db-table-sp_wppusher_packages.table.gz (46/26): adding to final database dump
+0010.390 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db.gz: finished writing out complete database file (816 KB)
+0010.400 (0) Total database tables backed up: 23 (backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db.gz, size: 856580, sha1: 500f4ade386c3b647136f6e09e43ed7ecf262cff, sha256: 79dabf92f75aea92d261287aae43190d9615d0c1e9218f726f01b1d4242f5778)
+0010.402 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.402 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.403 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.403 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.403 (0) backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.403 (0) Saving backup history. Total backup size: 101.9 MB
+0010.404 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.405 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.406 (0) No remote despatch: user chose no remote backup service
+0010.406 (0) Recording as successfully uploaded: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-plugins.zip
+0010.407 (0) Recording as successfully uploaded: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-themes.zip
+0010.407 (0) Recording as successfully uploaded: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-uploads.zip
+0010.408 (0) Recording as successfully uploaded: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-others.zip
+0010.409 (0) Recording as successfully uploaded: backup_2020-10-30-0201_spa0001alanvocom_8f8984970ad3-db.gz
+0010.410 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.411 (0) Number of backup sets in history: 2; groups (db): 1
+0010.411 (0) Examining (for databases) backup set with group_id=0, nonce=8f8984970ad3, datestamp=1604023298 (Oct 30 2020 02:01:38)
+0010.411 (0) This backup set is the backup set just made, so will not be deleted.
+0010.411 (0) Examining (for databases) backup set with group_id=0, nonce=ad9876593d14, datestamp=1603892900 (Oct 28 2020 13:48:20)
+0010.411 (0) This backup set (1603892900) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.411 (0) Number of backup sets in history: 2; groups (files): 1
+0010.412 (0) Examining (for files) backup set with nonce=8f8984970ad3, datestamp=1604023298 (Oct 30 2020 02:01:38)
+0010.412 (0) This backup set is the backup set just made, so will not be deleted.
+0010.412 (0) This backup set is the backup set just made, so will not be deleted.
+0010.412 (0) This backup set is the backup set just made, so will not be deleted.
+0010.412 (0) This backup set is the backup set just made, so will not be deleted.
+0010.412 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.412 (0) Examining (for files) backup set with nonce=ad9876593d14, datestamp=1603892900 (Oct 28 2020 13:48:20)
+0010.412 (0) This backup set (1603892900) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.412 (0) This backup set (1603892900) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.412 (0) This backup set (1603892900) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.412 (0) This backup set (1603892900) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0010.412 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.412 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0010.413 (0) Resume backup (8f8984970ad3, 0): finish run
+0010.414 (0) Decremented the semaphore (fd) by 1
+0010.414 (0) Semaphore (fd) unlocked
+0010.415 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.416 (0) The backup apparently succeeded and is now complete
+0010.416 (0) No email will/can be sent - the user has not configured an email address.
+0010.416 (0) The backup apparently succeeded and is now complete.
+0000.000 (1) Opened log file at time: Fri, 30 Oct 2020 02:12:37 +0000 on https://spa0001.alanvo.com
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.33 WP: 5.5.2 PHP: 7.4.11 (cgi-fcgi, Linux cpl.topranks.com.au 3.10.0-862.14.4.el7.x86_64 #1 SMP Wed Sep 26 15:12:11 UTC 2018 x86_64) MySQL: 10.2.34-MariaDB WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 45.6M | 46.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.052 (1) Free space on disk containing Updraft's temporary directory: 2728.4 MB
+0000.052 (1) This backup task (8f8984970ad3) is either complete or began over 2 days ago: ending (1604023957.6842, ) (existing jobdata keys: )
